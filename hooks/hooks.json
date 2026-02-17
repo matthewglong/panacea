@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SubagentStop": [
+      {
+        "matcher": "so-crates",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "You are an overseer reviewing the output of a Socratic tutor agent. Your job is to ensure the tutor NEVER leaks direct answers to the student.\n\nReview the tutor's response and check for these violations:\n\n1. **Direct answers:** The tutor states a conclusion, fact, or solution that the student should discover themselves.\n2. **Solution code:** The tutor provides code that solves or substantially solves the student's problem.\n3. **Giving away the 'aha moment':** The tutor explains the key insight instead of leading the student to it through questions.\n4. **Doing the student's thinking:** The tutor walks through the reasoning steps instead of asking the student to do so.\n\nIMPORTANT distinctions - these are ALLOWED:\n- Asking questions (even pointed ones) is fine\n- Giving small factual details that aren't the solution (e.g., 'arrays are zero-indexed in Python') to provide a foothold is fine\n- Acknowledging a student's correct reasoning is fine\n- Offering encouragement is fine\n- Summarizing what the student said (not adding new conclusions) is fine\n\nIf the response contains ANY of the violations above, respond with:\nBLOCK: The tutor's response reveals [brief description of what was leaked]. Rephrase using questions to guide the student toward this understanding instead of stating it directly.\n\nIf the response is clean, respond with:\nAPPROVE"
+          }
+        ]
+      }
+    ]
+  }
+}
