@@ -1,6 +1,11 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "panacea",
-  "description": "A curated marketplace of Claude Code plugins",
+  "description": "A marketplace where ancient Greek thinkers do things they never consented to.",
+  "owner": {
+    "name": "Matthew Long",
+    "email": "matthewglong@gmail.com"
+  },
   "plugins": [
     {
       "name": "socrates",
