@@ -7,7 +7,7 @@ A curated marketplace of Claude Code plugins.
 Add the marketplace, then install any plugin:
 
 ```
-/plugin marketplace add matthewglong/so-crates
+/plugin marketplace add matthewglong/panacea
 /plugin install socrates@panacea
 ```
 
