@@ -1,5 +1,5 @@
 {
-  "name": "so-crates",
+  "name": "socrates",
   "version": "1.0.0",
   "description": "Transforms Claude into a Socratic tutor that guides learning through probing questions instead of giving direct answers. Includes an overseer hook that blocks answer-leaking.",
   "components": {

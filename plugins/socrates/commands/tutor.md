@@ -14,7 +14,7 @@ The user wants to start a Socratic tutoring session on the following topic:
 
 **{{ topic }}**
 
-Launch the `so-crates` agent to guide the student through this topic using Socratic questioning. The agent should:
+Launch the `socrates` agent to guide the student through this topic using Socratic questioning. The agent should:
 
 1. Acknowledge the topic the student wants to explore
 2. Ask an opening question to gauge the student's current understanding

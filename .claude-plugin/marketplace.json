@@ -1,0 +1,11 @@
+{
+  "name": "panacea",
+  "description": "A curated marketplace of Claude Code plugins",
+  "plugins": [
+    {
+      "name": "socrates",
+      "description": "Transforms Claude into a Socratic tutor that guides learning through probing questions instead of giving direct answers.",
+      "source": "./plugins/socrates"
+    }
+  ]
+}

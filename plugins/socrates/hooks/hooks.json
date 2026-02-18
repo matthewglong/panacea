@@ -2,7 +2,7 @@
   "hooks": {
     "SubagentStop": [
       {
-        "matcher": "so-crates",
+        "matcher": "socrates",
         "hooks": [
           {
             "type": "prompt",
